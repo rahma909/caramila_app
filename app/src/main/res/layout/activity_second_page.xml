@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context=".secondPage">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="20dp"
+        android:background="#D2FFC9DB"
+        android:text="Your Name"
+        android:textColor="#40497A"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:background="#BAF4F5FB"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#40497A" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:background="#D0FFC9DB"
+        android:text="Your Phone"
+        android:textColor="#40497A"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:background="#B9F5F6F8"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="#40497A" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="#D0FFC9DB"
+        android:text="Your E-mail"
+        android:textColor="#40497A"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="#BAF3F4F8"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#40497A" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="#D0FFC9DB"
+        android:text="Your Address"
+        android:textAlignment="viewStart"
+        android:textColor="#40497A"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="25dp"
+        android:background="#BAF6F7FA"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:textColor="#40497A" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="25dp"
+        android:text="Start Ordering"
+        android:textColor="#40497A"
+        android:textStyle="bold"
+        app:backgroundTint="#D0FFC9DB" />
+
+</LinearLayout>
